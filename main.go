@@ -12,6 +12,10 @@ import (
 var pattern *regexp.Regexp
 
 func main() {
+	fmt.Println(">>>WIP: PDF Parsing")
+	extract()
+	return
+
 	if err := run(); err != nil {
 		log.Fatal(err)
 	}
